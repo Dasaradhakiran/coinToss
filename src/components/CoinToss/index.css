@@ -1,0 +1,125 @@
+/* Write your CSS here */
+
+.toss-img {
+  width: 150px;
+}
+
+.app-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+
+.app-sub-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 85vh;
+  width: 40vw;
+}
+
+.main-head {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.main-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 25px;
+}
+
+.toss-btn {
+  background-color: #e2a139;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  font-weight: 600;
+  margin-top: 15px;
+  width: 80px;
+}
+
+.count-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.count-text {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+}
+
+.img-cont {
+  height: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-sub-cont {
+    width: 55vw;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .toss-img {
+    width: 90px;
+  }
+
+  .main-head {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .main-text {
+    font-size: 15px;
+  }
+
+  .toss-btn {
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 80px;
+  }
+
+  .count-cont {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .count-text {
+    font-size: 10px;
+  }
+
+  .img-cont {
+    height: 100px;
+  }
+
+  .app-sub-cont {
+    width: 55vw;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .app-sub-cont {
+    width: 60vw;
+  }
+}
